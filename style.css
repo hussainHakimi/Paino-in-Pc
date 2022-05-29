@@ -7,6 +7,13 @@ body{
   box-sizing: border-box;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
+h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  /* background-color: #ccc; */
+  color: greenyellow;
+  margin-bottom: 40px;
+}
 .firstPhase, .secondPhase, .thirdPhase, .forthPhase{
   display: flex;
   margin:0vh 0px 5vh 0px;
@@ -23,7 +30,7 @@ body{
   justify-content:center;
   align-items: center;
   color: #fff;
-  margin-top: 20vh;
+  margin-top: 10vh;
 }
 .key{
   width: 95px;
