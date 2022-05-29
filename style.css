@@ -1,5 +1,5 @@
 body{
-  width: 100%;
+  width: 99%;
   height: 100%;
   background-image: url('DonyaSoft\ Wallpaper\ \(31\).jpg');
   background-repeat: no-repeat;
@@ -7,24 +7,33 @@ body{
   box-sizing: border-box;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
+.firstPhase, .secondPhase, .thirdPhase, .forthPhase{
+  display: flex;
+  margin:0vh 0px 5vh 0px;
+}
+.forthPhase{
+  width: 420px;
+}
+.forthPhase div{
+  width: 100%;
+}
 .keys{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content:center;
   align-items: center;
   color: #fff;
-  margin-top: 45vh;
+  margin-top: 20vh;
 }
 .key{
-  width: 65px;
-  height: 75px;
+  width: 95px;
+  height: 80px;
   border : 1px solid rgb(158, 233, 7);
   display: flex;
   transition: all 0.3s;
   flex-direction: column;
   margin-left: 15px;
-  background-color: black;
+  background-color: #868080;;
   box-shadow: 0px 0px 9px 3px #fff;
 }
 
